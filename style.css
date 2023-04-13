@@ -1,0 +1,214 @@
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.body-img {
+  max-width: 100%;
+  position: absolute;
+  margin-left: -140px;
+  margin-top: -100px;
+}
+
+.img-logo {
+  max-width: 146.09px;
+  height: 32px;
+
+  margin-top: 61.99px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-pattern {
+  margin-top: -50px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header-h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  color: #191826;
+  max-width: 800px;
+
+  margin-top: 120px;
+}
+
+.header-p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #191826;
+  max-width: 780px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-mask {
+  position: absolute;
+  margin-top: 321px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 120px;
+}
+
+.nav-illustration {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 248px;
+}
+
+.nav-group17 {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-left: 666px;
+  margin-top: 380px;
+}
+
+main {
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+b {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #191826;
+}
+
+.main-p {
+  width: 366px;
+  margin-left: -50px;
+}
+
+.img-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-icon:hover {
+  transform: translateY(-5px);
+}
+
+.img-group7 {
+  z-index: 0;
+  margin-top: 540px;
+  margin-left: 460px;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-group7 {
+    margin-left: 48px;
+    margin-top: 470px;
+  }
+
+  .nav-illustration {
+    margin-left: 80px;
+    width: 208.97px;
+    height: 430px;
+    margin-top: 75px;
+  }
+
+  .nav-mask {
+    margin-top: 166px;
+    width: 390px;
+    margin-left: 0px;
+  }
+
+  .nav-group17 {
+    margin-top: 602px;
+    width: 390px;
+    margin-left: 0px;
+  }
+
+  header {
+  }
+
+  .img-logo {
+    margin-left: 10px;
+  }
+
+  .header-h1 {
+    margin-left: 10px;
+    width: 370px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+
+    letter-spacing: -0.454545px;
+
+    color: #191826;
+  }
+
+  .header-p {
+    margin-left: 10px;
+    width: 370px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #191826;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-main {
+    margin-top: 100px;
+    margin-left: -210px;
+  }
+
+  .main-p {
+    margin-top: 26px;
+    margin-left: 10px;
+  }
+
+  .img-icon {
+    margin-top: 64px;
+    margin-left: -250px;
+  }
+}
